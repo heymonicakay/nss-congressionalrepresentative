@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Congressional Representative</title>
+</head>
+
+<body>
+    <!-- create article element that will serve as main rep component, 
+    give unique identifier-->
+<article class="article article--main">
+
+    <header class="header header__">
+
+        <h1 class="header header">
+            Congressional Representative
+        </h1>
+
+    </header>
+
+    <!-- In this component, create a sub-component for basic information using the section element. -->
+
+    <section class="section section--overview">
+
+        <details class="details">
+
+            <summary class="summary summary--title summary__basic-info">
+                Basic Information
+            </summary>
+
+            <p class="summary summary__cooper-info">
+                Cooper is the representative for Tennessee’s 5th congressional district (view map) and is a Democrat. He has served since Jan 7, 2003. Cooper is next up for reelection in 2020 and serves until Jan 3, 2021 unless re-elected.
+            </p>
+
+            <p class="summary summary__cooper-info">
+                He was previously the representative for Tennessee’s 4th congressional district as a Democrat from 1983 to 1994.
+            </p>
+
+        </details>
+
+    </section>
+
+   <!-- In this section create elements for the representative's image, name, district info, and political affiliation.-->
+    
+        <section class="section section__image"> 
+            <img class="image image__cooper" src="" alt ="">
+        </section>
+
+        <div class="name name__representative"> 
+            <h3 class="name--cooper">
+                Jim Cooper
+            </h3>
+        </div>
+
+        <div class="district-info district-info__representative">
+            <h3 class="district-info--cooper">
+                District Info
+            </h3>
+            <p class="paragraph paragraph__district-info paragraph__district-info--cooper">
+                content
+            </p>
+        </div>
+    </section>
+    
+   <!-- Beneath the basic information, you will create a sub-component, using a section element, to list any committees the candidate is serving on.-->
+
+   <section class="section section__committees">
+        <h3 class="section section__committees-heading">
+            Committees
+        </h3>
+            <ul class="section section--committees-list">
+                <li class="section section--committees-list-item"> one </li>
+                <li class="section section--committees-list-item"> two </li>
+                <li class="section section--committees-list-item"> three </li>
+                <li class="section section--committees-list-item"> four </li>
+            </ul> 
+   </section>
+        
+    <!--The last component will hold links to any legislation that your 
+    representative has enacted. -->
+
+    <section class="section section__list section--legislation">
+        <h3 class="section section__heading section--legeslation-links">
+            Links To Legislation Jim Has Enacted
+        </h3>
+            <ul>
+
+                <li class="list-item list-item__link-one list-item__link-one--not-visited">
+                    <a href="https://www.govtrack.us/congress/bills/112/hr482">H.R. 482 (112th): Water Heater Rating Improvement Act of 2011</a>
+                </li>
+
+                <li class="list-item list-item__link-one list-item__link-one--visited">
+                    <a href="https://www.govtrack.us/congress/bills/112/hr482">H.R. 482 (112th): Water Heater Rating Improvement Act of 2011</a>
+                </li>
+
+                <li class="list-item list-item__link-one list-item__link-one--hover">
+                    <a href="https://www.govtrack.us/congress/bills/112/hr482">H.R. 482 (112th): Water Heater Rating Improvement Act of 2011</a>
+                </li>
+
+                <li class="list-item list-item__link-two list-item__link-two--not-visited">
+                    <a href="https://www.govtrack.us/congress/bills/103/hjres297">H.J.Res. 297 (103rd)</a>
+                </li>
+
+                <li class="list-item list-item__link-two list-item__link-two--visited">
+                    <a href="https://www.govtrack.us/congress/bills/103/hjres297">H.J.Res. 297 (103rd)</a>
+                </li>
+
+                <li class="list-item list-item__link-two list-item__link-two--hover">
+                    <a href="https://www.govtrack.us/congress/bills/103/hjres297">H.J.Res. 297 (103rd)</a>
+                </li>
+
+                <li class="list-item list-item__link-three list-item__link-three--not-visited">
+                    <a href="https://www.govtrack.us/congress/bills/110/hr928">H.R. 928 (110th): Inspector General Reform Act of 2008</a>
+                </li>
+
+                <li class="list-item list-item__link-three list-item__link-three--visited">
+                    <a href="https://www.govtrack.us/congress/bills/110/hr928">H.R. 928 (110th): Inspector General Reform Act of 2008</a>
+                </li>
+
+                <li class="list-item list-item__link-three list-item__link-three--hover">
+                    <a href="https://www.govtrack.us/congress/bills/110/hr928">H.R. 928 (110th): Inspector General Reform Act of 2008</a>
+                </li>
+            </ul>
+
+    </section>
+
+    <!-- Make sure you use good BEM-style class names for each element in your components. --> 
+    
+    <!-- Put a comment above each component explaining what it is -->
+</article>
+</body>
+</html>
